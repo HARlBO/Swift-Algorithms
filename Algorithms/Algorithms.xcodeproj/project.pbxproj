@@ -63,20 +63,20 @@
 		E94F9E672125DC20005191EB /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				E94F9E712129BDC0005191EB /* Proggrammers */,
+				E94F9E712129BDC0005191EB /* Programmers */,
 				E94F9E682125DC20005191EB /* main.swift */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
 		};
-		E94F9E712129BDC0005191EB /* Proggrammers */ = {
+		E94F9E712129BDC0005191EB /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
 				E94F9E722129BDD3005191EB /* 12091.swift */,
 				E94F9E742129BDE7005191EB /* 12903.swift */,
 				E94F9E762129C7FB005191EB /* 12906.swift */,
 			);
-			path = Proggrammers;
+			path = Programmers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
