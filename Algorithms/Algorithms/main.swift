@@ -8,7 +8,5 @@
 
 import Foundation
 
-print(solution12910([5, 9, 7, 10], 5))
-print(solution12910([2, 36, 1, 3], 1))
-print(solution12910([3,2,6], -10))
-
+print(solution12915(["sun", "bed", "car"], 1))
+print(solution12915(["abc","abce", "abcd", "cdx"], 2))
