@@ -13,21 +13,20 @@
 import Foundation
 
 func solution12915(_ strings:[String], _ n:Int) -> [String] {
+    let resultArray = strings.sorted {
+        let first = $0[$0.index($0.startIndex, offsetBy: n)]
+        let second = $1[$1.index($1.startIndex, offsetBy: n)]
+       
+        if first == second {
+            return $0 < $1
+        } else if first < second {
+            return first < second
+        } else {
+            return false
+        }
+    }
     
-//    33
-//    return strings.sorted(by: { $0[$0.index($0.startIndex, offsetBy: n)] <= $1[$1.index($1.startIndex, offsetBy: n)]})
-    
-    
-//    25
-    return strings.sorted(by: { splitString($0, n) < splitString($1, n)})
-}
-
-func splitString (_ s: String, _ n : Int) -> String {
-    let start = s.index(s.startIndex, offsetBy: n)
-    let end = s.index(s.startIndex, offsetBy: s.count-1)
-    
-    
-    return String(s[start...end])
+    return resultArray
 }
 
 
