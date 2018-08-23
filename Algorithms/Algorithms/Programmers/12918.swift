@@ -14,9 +14,10 @@
 import Foundation
 
 func solution12918(_ s: String) -> Bool {
-    
-    if s.count == 4 || s.count == 6 {
-        
+    if Int(s) != nil {
+        if s.count == 4 || s.count == 6 {
+            return true
+        }
     }
     
     return false
