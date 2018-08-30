@@ -14,19 +14,22 @@
 import Foundation
 
 func solution12930(_ s: String) -> String {
-    var resultString = ""
+    var index = 0
     
-    for separateString in s.components(separatedBy: " ") {
-        for i in 0..<separateString.count {
-            if i % 2 == 0 {
-                resultString += String(separateString[separateString.index(separateString.startIndex, offsetBy: i)]).uppercased()
-            } else {
-               resultString += String(separateString[separateString.index(separateString.startIndex, offsetBy: i)]).lowercased()
-            }
+    let resultArray = s.map({ (c: Character) -> String in
+        if c == " " {
+            index = 0
+            return " "
         }
-        
-        resultString += " "
-    }
-    
-    return resultString
+
+        if index % 2 == 0 {
+            index += 1
+           return String(c).uppercased()
+        } else {
+            index += 1
+           return String(c).lowercased()
+        }
+    })
+
+    return resultArray.joined()
 }
