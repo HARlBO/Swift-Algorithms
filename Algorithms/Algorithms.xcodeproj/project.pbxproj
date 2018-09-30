@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E90B35DF214956B80068D582 /* 12950.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90B35DE214956B80068D582 /* 12950.swift */; };
 		E90B35E1214E469D0068D582 /* 12954.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90B35E0214E469D0068D582 /* 12954.swift */; };
+		E90B35FA2160F4820068D582 /* 12982.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90B35F92160F4820068D582 /* 12982.swift */; };
 		E94F9E692125DC20005191EB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F9E682125DC20005191EB /* main.swift */; };
 		E94F9E732129BDD3005191EB /* 12091.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F9E722129BDD3005191EB /* 12091.swift */; };
 		E94F9E752129BDE7005191EB /* 12903.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F9E742129BDE7005191EB /* 12903.swift */; };
@@ -54,6 +55,7 @@
 /* Begin PBXFileReference section */
 		E90B35DE214956B80068D582 /* 12950.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12950.swift; sourceTree = "<group>"; };
 		E90B35E0214E469D0068D582 /* 12954.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12954.swift; sourceTree = "<group>"; };
+		E90B35F92160F4820068D582 /* 12982.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12982.swift; sourceTree = "<group>"; };
 		E94F9E652125DC20005191EB /* Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94F9E682125DC20005191EB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E94F9E722129BDD3005191EB /* 12091.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12091.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 				E94F9EA72146C4B1005191EB /* 12948.swift */,
 				E90B35DE214956B80068D582 /* 12950.swift */,
 				E90B35E0214E469D0068D582 /* 12954.swift */,
+				E90B35F92160F4820068D582 /* 12982.swift */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				E94F9E8C21342B09005191EB /* 12925.swift in Sources */,
 				E94F9E9421383399005191EB /* 12931.swift in Sources */,
 				E94F9E79212AFAB0005191EB /* 12912.swift in Sources */,
+				E90B35FA2160F4820068D582 /* 12982.swift in Sources */,
 				E94F9E772129C7FB005191EB /* 12906.swift in Sources */,
 				E94F9E9C213D75ED005191EB /* 12935.swift in Sources */,
 				E94F9E732129BDD3005191EB /* 12091.swift in Sources */,
